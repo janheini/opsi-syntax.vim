@@ -67,9 +67,9 @@ syntax match opsiGlobalTextConstants '%[Ii]nstallingProduct%'
 
 let b:current_syntax = "opsi-script"
 
-hi def link opsiBasicKeywords			 LineNr
-hi def link opsiFunctions				 NonText
-hi def link opsiComments                 Directory
-hi def link opsiVariables			     Title 
-hi def link opsiGlobalTextConstants      WarningMsg
+hi def link opsiBasicKeywords		 Identifier
+hi def link opsiFunctions		 Function
+hi def link opsiComments                 Comment
+hi def link opsiVariables		 Structure 
+hi def link opsiGlobalTextConstants      Constant
 
